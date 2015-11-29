@@ -1,0 +1,20 @@
+
+body {
+    padding-top: 70px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+/* The Magic Float Center Code */
+.float_center {
+  float: right;
+  position: relative;
+  left: -47%; /* or right 50% */
+  text-align: right;
+}
+.float_center > .child {
+  position: relative;
+  left: 50%;
+}
+
+
