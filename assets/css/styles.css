@@ -5,6 +5,7 @@ body {
 }
 
 
+
 /* The Magic Float Center Code */
 .float_center {
   float: right;
@@ -17,4 +18,16 @@ body {
   left: 50%;
 }
 
+/*social media icons*/
+
+
+.socialicon li {
+    display: inline;
+    float: left;
+}
+
+.icon a {
+display: block;
+    padding: 10px;
+}
 
